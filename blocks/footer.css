@@ -2,6 +2,7 @@
   max-width: 166px;
   height: 16px;
   margin-left: 556px;
+  padding-top: 92px;
   font-family: Inter;
   font-weight: 400;
   font-size: 14px;
@@ -9,4 +10,10 @@
   letter-spacing: 0%;
   text-align: right;
   color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 320px) {
 }
