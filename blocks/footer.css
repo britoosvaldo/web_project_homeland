@@ -3,17 +3,25 @@
   height: 16px;
   margin-left: 556px;
   padding-top: 92px;
-  font-family: Inter;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
-  letter-spacing: 0%;
   text-align: right;
   color: #ffffff;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+  .footer {
+    margin-left: 300px;
+    padding-top: 88px;
+  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 544px) {
+  .footer {
+    margin-left: 77px;
+    padding-top: 64px;
+    line-height: 14px;
+  }
 }
