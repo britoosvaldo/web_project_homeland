@@ -1,8 +1,9 @@
 .footer {
+  display: flex;
   max-width: 166px;
   height: 16px;
   margin-left: 556px;
-  padding-top: 92px;
+  padding: 120px 0 25px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
@@ -13,15 +14,12 @@
 
 @media screen and (max-width: 1024px) {
   .footer {
-    margin-left: 300px;
-    padding-top: 88px;
+    margin: 90px 300px 0;
   }
 }
 
 @media screen and (max-width: 544px) {
   .footer {
-    margin-left: 77px;
-    padding-top: 64px;
-    line-height: 14px;
+    padding: 0 0 25px 100px;
   }
 }
