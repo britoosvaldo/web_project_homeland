@@ -78,7 +78,7 @@
 }
 
 .place__button {
-  background: linear-gradient(to right, #0278fe, #003a7b);
+  background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
   color: #ffffff;
   height: auto;
   padding: 13px 20px;
@@ -95,6 +95,11 @@
 }
 
 .place__button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 120, 254, 0.25) 0%,
+    rgba(0, 58, 123, 0.25) 99.98%
+  );
   opacity: 0.5;
 }
 
